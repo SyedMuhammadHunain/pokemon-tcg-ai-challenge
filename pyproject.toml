@@ -1,0 +1,23 @@
+[project]
+name = "pkmon-game"
+version = "0.1.0"
+description = "Pokemon TCG AI Battle Challenge"
+readme = "docs/spec.md"
+requires-python = ">=3.10"
+dependencies = [
+    "kaggle-environments",
+]
+
+[project.optional-dependencies]
+lint = [
+    "flake8",
+    "ruff",
+]
+
+[dependency-groups]
+dev = [
+    "pytest",
+    "flake8",
+    "ruff",
+]
+
