@@ -13,10 +13,10 @@
 ## Task 2: Setup Testing Harness
 **Description:** Set up `pytest` and write a baseline unit test for the dummy agent to ensure it can receive a mock state and return a valid action.
 **Acceptance criteria:**
-- [ ] `tests/test_agent.py` exists.
-- [ ] Test passes when running `pytest tests/`.
+- [x] `tests/test_agent.py` exists.
+- [x] Test passes when running `pytest tests/`.
 **Verification:**
-- [ ] Tests pass: `pytest tests/`
+- [x] Tests pass: `pytest tests/`
 **Dependencies:** Task 1
 **Files likely touched:** `tests/test_agent.py`
 **Estimated scope:** Small
