@@ -70,10 +70,10 @@
 ## Task 7: Draft Strategy Report
 **Description:** Write the required Kaggle Writeup detailing the non-ML, simple heuristic approach.
 **Acceptance criteria:**
-- [ ] `docs/strategy_report.md` exists and is ~2000 words (or extensively detailed).
-- [ ] Explains logic clearly without assuming ML knowledge.
+- [x] `docs/strategy_report.md` exists and is ~2000 words (or extensively detailed).
+- [x] Explains logic clearly without assuming ML knowledge.
 **Verification:**
-- [ ] Manual check: Read document for clarity.
+- [x] Manual check: Read document for clarity.
 **Dependencies:** Task 4
 **Files likely touched:** `docs/strategy_report.md`
 **Estimated scope:** Large
