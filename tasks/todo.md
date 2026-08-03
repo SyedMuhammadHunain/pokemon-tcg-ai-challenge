@@ -22,12 +22,12 @@
 **Estimated scope:** Small
 
 ## Task 3: Implement State Parser
-**Description:** Create helper functions to safely parse the `observation` dictionary provided by the Kaggle `cabt` engine, abstracting away the complexity.
+**Description:** Build helper functions to parse Kaggle `observation` dicts.
 **Acceptance criteria:**
-- [ ] Functions exist to get the active Pokémon, hand, and energy.
-- [ ] Functions do not throw KeyErrors on missing data.
+- [x] `src/parser.py` (or similar) created.
+- [x] Unit tests for parsing logic exist and pass.
 **Verification:**
-- [ ] Tests pass: `pytest tests/`
+- [x] Run `pytest tests/test_parser.py`
 **Dependencies:** Task 1, Task 2
 **Files likely touched:** `src/parser.py`, `tests/test_parser.py`
 **Estimated scope:** Medium

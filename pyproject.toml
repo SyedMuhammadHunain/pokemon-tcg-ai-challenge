@@ -12,6 +12,8 @@ dependencies = [
 lint = [
     "flake8",
     "ruff",
+    "codespell",
+    "ty"
 ]
 
 [dependency-groups]
@@ -20,4 +22,16 @@ dev = [
     "flake8",
     "ruff",
 ]
+
+[tool.ruff]
+exclude = ["skills"]
+
+[tool.codespell]
+skip = "skills,agent-skills,.git,.venv,uv.lock"
+
+[tool.pyright]
+exclude = ["skills", "skills/**", "agent-skills", ".venv", "**/tests", "code-review-graph"]
+
+
+
 

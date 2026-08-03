@@ -37,6 +37,7 @@ skills/         → Submodules and workflow skills (e.g., code-review-graph)
 
 from typing import Dict, Any
 
+
 class TCGStrategyAgent:
     def __init__(self, config: Dict[str, Any]) -> None:
         self.config = config
