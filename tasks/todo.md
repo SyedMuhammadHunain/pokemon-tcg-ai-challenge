@@ -59,10 +59,10 @@
 ## Task 6: Local Mock Match Execution
 **Description:** Create a runner script to execute a full match using `kaggle-environments` against a random baseline agent.
 **Acceptance criteria:**
-- [ ] `src/run_match.py` exists.
-- [ ] Script successfully plays a match to completion without agent crashes.
+- [x] `src/run_match.py` exists.
+- [x] Script successfully plays a match to completion without agent crashes.
 **Verification:**
-- [ ] Manual check: Run `python -m src.run_match` and observe a completed match.
+- [x] Manual check: Run `python -m src.run_match` and observe a completed match.
 **Dependencies:** Task 4, Task 5
 **Files likely touched:** `src/run_match.py`
 **Estimated scope:** Medium

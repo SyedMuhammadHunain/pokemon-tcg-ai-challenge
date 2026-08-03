@@ -13,9 +13,15 @@ def agent(observation: dict, configuration: dict) -> List[Any]:
     """
     step = observation.get("step")
 
-    # Step 0: initialization, return a default deck
+    # Step 0: initialization, return a default valid deck
     if step == 0:
-        return [721] * 10 + [1092] * 50
+        return [
+            721, 721, 722, 722, 722, 722, 723, 723, 723, 723, 
+            1092, 1121, 1121, 1145, 1145, 1163, 1163, 1219, 1219, 1219, 
+            1219, 1227, 1227, 1227, 1227, 1262, 1262, 3, 3, 3, 
+            3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 
+            3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3
+        ]
 
     select = observation.get("select")
     if not select:
